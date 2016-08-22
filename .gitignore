@@ -1,0 +1,11 @@
+*.o
+*.a
+*.lo
+*.la
+
+# Build output directories
+Release
+Debug
+MinSizeRel
+RelWithDebInfo
+ipch
