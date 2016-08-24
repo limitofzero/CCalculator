@@ -9,6 +9,6 @@ CalculatorTest.o: CalculatorTest.cpp
 	$(CC) $(CFLAGS) -c CalculatorTest.cpp
 calculator.o: ../calculator.cpp
 	$(CC) $(CFLAGS) -c ../calculator.cpp
-	cp ../calculator.cpp ./
+	cp ../calculator.o ./
 	
 
